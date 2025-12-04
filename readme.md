@@ -3,7 +3,7 @@
 ### **Detect Fake vs Legitimate Job Postings Using Machine Learning**
 
 <div align="center">
-  <img src="images/job-classifier-ui.png" width="750px">
+  <img src="/images/fake_job.png" width="750px">
 </div>
 
 ---
@@ -91,7 +91,7 @@ A job posting (title, salary, description, requirements)
 
 ### **Output Example:**
 
-## ![alt text](image.png)
+## ![alt text](/image.png)
 
 ## ⚙️ Tech Stack
 
@@ -116,29 +116,3 @@ A job posting (title, salary, description, requirements)
 **Backend:**
 
 - Flask or FastAPI
-
----
-
-## 📊 Model Performance
-
-(You can fill with your metrics)
-
-| Metric           | Score |
-| ---------------- | ----- |
-| Accuracy         | 89%   |
-| Precision (Fake) | 28%   |
-| Recall (Fake)    | 76%   |
-| F1-score (Fake)  | 0.41  |
-
-> High recall on the fake-job class ensures that **potential scams are caught more often**, prioritizing user safety.
-
----
-
-## 🚀 How to Run Locally
-
-```bash
-git clone https://github.com/yourusername/job-posting-classifier.git
-cd job-posting-classifier
-pip install -r requirements.txt
-python app.py
-```
